@@ -3,3 +3,12 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+/* git check now comment  */
+div {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
