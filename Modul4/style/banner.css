@@ -1,0 +1,39 @@
+*{
+    paddin:0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    max-width: 1270px;  
+    background-color: bisque;
+    margin: 0 auto;
+}
+.hero-container{
+    display: flex;
+    background-color: cadetblue;
+    padding: 25px;
+    font-size: 1.25re;
+    align-items: center;
+    gap: 20px;
+}
+
+.hero-container img{
+    width: 500px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+
+.hero-container p{
+    text-align: justify;
+}
+
+.hero-container button{
+   padding: 10px 20px ; 
+   font-size: 1.24rem;
+   margin-top: 10px  ;
+   border-radius: 10px;
+   cursor: pointer;
+
+}

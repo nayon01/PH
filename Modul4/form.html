@@ -10,19 +10,40 @@
             margin-top: 15px;
         }
     </style>
+
+    <link rel="stylesheet" href="./style/auto.css">
 </head>
 <body>
+
+
     
-    <header>   
+
+    <header>
+        <!-- Navigation section  -->
+        <nav>
+            <ul>
+                <li><a href="./auto.html" target="_blank">Auto </a></li>
+                <li><a href="./center.html" target="_blank">Center</a></li>
+                <li><a href="./flex.html" target="_blank">Flex</a></li>
+                <li><a href="./table.html" target="_blank">Table</a></li>
+                <li><a href="./form.html" target="_blank">Form</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+
         <main>
             <section>
                 <h2>Jamal Mother Pitha Ghar</h2> 
 
                 <form action="">
+
                     <fieldset class="basic-info">
+
                         <legend>Basic Infon</legend>
-                        <label for="name">Your Name</label>
-                        <input type="text" id="name">
+                        <label for="name" >Your Name</label>
+                        <input type="text" id="name" placeholder="Your Name" required>
     
                         <label for="email">Your email</label>
                         <input type="email" name="" id="email">
@@ -30,7 +51,9 @@
 
 
                     <fieldset>
+
                         <legend>Pitha info</legend>
+
                         <input type="radio" name="Pitha" id="chitoy">
                         <label for="chitoy">Chitoy</label>
 
@@ -43,25 +66,28 @@
                     </fieldset>
 
                     <fieldset>
+
                         <legend> Vorta Selection</legend>
                         <input type="checkbox" name="Sorisha" id="sorisha">
                         <label for="sorisha">Sorishia Vorta</label>
 
                         <input type="checkbox" name="kaozira" id="zira">
                         <label for="zira">Zira Vorta</label>
+                    
                     </fieldset>
 
                     <fieldset>
                         <legend>Extra Info</legend>
                         <textarea name="" id="" cols="40" rows="4"></textarea>
                     </fieldset>
+
                     <button type="submit">Submit</button>
                     <button type="reset">Clear</button>
 
                 </form>
             </section>
         </main>
-    </header>
+   
 
 </body>
 </html>
